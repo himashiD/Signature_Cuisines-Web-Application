@@ -1,0 +1,668 @@
+
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+.text-red{
+    color: #65000b;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #65000b;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+a:hover{
+    color: #ff4757;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #65000b;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #ff4757;
+}
+.btn-search{
+    background-color: #FEA116;
+    color: white;
+    cursor: pointer;
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-search:hover{
+    color: white;
+    background-color: #ff4757;
+}
+
+.sub-text{
+    text-align: center;
+    color: #FEA116;
+    font-size: 3rem
+}
+
+h2{
+    color: #FEA116;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+.error{
+    padding:  2%;
+    color: red;
+    
+}
+
+.success{
+    padding: 2%;
+    color: green;
+
+}
+
+
+/* CSSS for navbar section */
+
+.logo{
+    width: 10%;
+    float: left;
+}
+.menu{
+    line-height: 60px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+
+/* CSS for Food SEarch Section */
+
+
+.topic1{
+    color: #ececec;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: #747d8c;
+    font-size: 11rem;
+    margin-left: 18rem;
+}
+
+.topic2{
+    color: #FEA116;
+    font-weight: bold;
+    text-align: center;
+    font-size: 7rem;
+    margin-left: 48rem;
+}
+
+.food-search{
+    background-image: url(../images/banner1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10% 0;
+    padding-top: 2rem;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.food-order{
+    background-image: url(../images/banner3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1% 0;
+}
+
+
+/*about page*/
+.about-us {
+    display: flex;
+    max-width: 1350px;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+}
+
+.images {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+
+.images-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.images-1 img {
+    width: 95%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.images-2 {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.images-2 img {
+    width: 95%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.about-desc {
+    flex: 1.5;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-desc h2 {
+    margin-top: 0;
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.about-desc p {
+    font-size: 20px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 5px solid #FEA116;
+    padding-left: 10px;
+
+}
+
+.stat-item h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #FEA116;
+}
+
+.stat-item .text {
+    margin-left: 10px;
+    text-align: center;
+}
+
+.stat-item .text p {
+    margin: 0;
+    font-size: 1em;
+    color: #444;
+}
+
+/* about service section*/
+
+.service-box {
+
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+  }
+  
+  .singl-service {
+    flex-basis: 32%; /* Adjusted for three images in a row */
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 0 0 5px #f20c0c, 0 0 5px white;
+    position: relative;
+  }
+  
+  .singl-service img {
+    width: 100%;
+    border-radius: 7px;
+  }
+  
+  .overlay{
+    width : 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 7px;
+    cursor: pointer;
+    background:linear-gradient(#e66465, #9198e5);
+    opacity: 0;
+    transition: 1s;
+  
+  }
+  
+  .singl-service :hover .overlay{
+    opacity: 1;
+  }
+    
+  .service-description{
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: 1s;
+  }
+  
+  .service-description h2{
+    font-size: 25px;
+    color: #fff;
+    text-shadow: 0 0 5px #0b0224, 0 0 5px #e66465 ;
+  }
+
+  hr{
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 60%;
+  }
+  
+  .service-description p{
+    font-size: 20px;
+    
+    text-shadow: 0 0 5px #0b0224, 0 0 5px #0000FF;
+  }
+
+  .singl-service:hover .service-description{
+    bottom: 15%;
+    opacity: 1;
+  }
+  
+  .singl-service:hover img {
+    
+    filter: blur(5px); /*blur effect to the image */
+  }
+
+
+
+
+/* CSS for Categories */
+.categories{
+    padding: 4% 0;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+
+/* CSS for Food Menu */
+.food-menu{
+    background-color: #ececec;
+    padding: 4% 0;
+}
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+
+
+/* for Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+/* contact us*/
+
+.contact-us {
+    padding: 50px 0;
+    
+}
+
+.text-center {
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+    background-color: #ececec;
+    border-radius: 15px;
+}
+
+.contact-details, .contact-form {
+    width: 48%;
+    margin: 2rem;
+    background-color: #ececec;
+    padding: 1rem;
+    border-radius: 15px;
+
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-info .icon {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#ff4757;
+    border-radius: 50%;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.contact-info .icon:hover{
+    background-color: #65000b;
+}
+
+.contact-info .contact-img{
+    width: 50px;
+    height: 50px;
+}
+
+.contact-info .info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.contact-info p {
+    font-size: 18px;
+    color: #555;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#map {
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 50px;
+  }
+  
+
+ /* Footer Section */
+ .footer {
+    background-color: #65000b;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+
+.footer .social-icons {
+    margin-bottom: 20px;
+}
+
+.footer .social-icons a {
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+
+.footer .social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer p {
+    margin: 10px 0;
+}
+
+.footer a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 30px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .subscription-form {
+    margin: 20px 0;
+}
+
+.footer .subscription-form h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer .subscription-form form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .subscription-form input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.footer .subscription-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #FEA116;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.footer .subscription-form button:hover {
+    background-color: #333;
+}
+   /*End footer section*/
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .food-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+
+    .order{
+        width: 100%;
+    }
+}
